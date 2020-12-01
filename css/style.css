@@ -1,8 +1,8 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+    background-color: azure;
+}
+
+h1 {
+    font-style: italic;
+    color: rgb(47, 7, 122);
+}
