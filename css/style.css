@@ -2,3 +2,13 @@ body {
     background-color: rgb(21, 134, 134);
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    float: right;
+    padding: 8px;
+}
