@@ -10,5 +10,10 @@ body {
     display: flex;
     position: fixed;
     top: 0px;
-  }
 
+}
+
+.title {
+    text-decoration-color: seashell;
+    background-color: tan;
+}
