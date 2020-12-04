@@ -1,33 +1,90 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(21, 134, 134);
-    margin-top: 0.5%;
+    margin-top: 15%;
 }
 
 #header {
-    background-color: green;
+    background-color: rgb(192, 250, 99);
     width: 100%;
     display: flex;
     position: fixed;
-    top: 0px;
+    top: 0;
   }
-  i {
-    font-size: 35px;
-    color: blue;
-    background-color: white;
-    border-radius: 5px;
+
+  .title {
+    margin-left: 2%;
+    text-decoration: seashell;
+    font-family: sans-serif;
+    color: rgba(145, 7, 7, 0.863);
   }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
+
+  h1 {
+    background-color: violet;
+    color: rgb(29, 4, 117);
+  }
+
+  .welcome {
+    color: rgb(29, 4, 117);
+    text-align: center;
+    text-decoration: underline rgb(158, 3, 163);
+  }
+  
 
   #nav-bar {
     text-align: center;
-    padding: 14px;
+    padding: 12px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
     margin-left: auto;
     margin-top: 22px;
     margin-bottom: 20px;
   }
 
   .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: navy;
+    margin-left: 80px;
+    background-color: lightblue;
+    text-decoration: none;
+  }
+
+  .nav-link {
       text-decoration: none;
+      padding: 10px;
+  }
+
+  .nav-link:hover {
+    color: red;
+    background-color: white;
+  }
+
+  section  {
+      color: white;
+      background-color: pink;
+      background: linear-gradient(pink, silver, dodgerblue, rgb(211, 211, 228));
+      border: 3px solid blue;
+      top: 20%;
+      margin: auto;
+      margin-top: 10px;
+      width: 70%;
+      padding: 60px;
+      font-size: 17px;
+  }
+
+  #introduction :first-child {
+    font-size: 22px;
+    color: rgb(243, 14, 14);
+  }
+
+  footer {
+    text-align: center;
+    background-color: darksalmon;
+    color: white;
+    padding: 3px;
   }
