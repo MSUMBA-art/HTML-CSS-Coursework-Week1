@@ -10,10 +10,24 @@ body {
     display: flex;
     position: fixed;
     top: 0px;
+  }
+  i {
+    font-size: 35px;
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+  }
 
-}
+  #nav-bar {
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: auto;
+    margin-top: 22px;
+    margin-bottom: 20px;
+  }
 
-.title {
-    text-decoration-color: seashell;
-    background-color: tan;
-}
+  .nav-link {
+      text-decoration: none;
+  }
