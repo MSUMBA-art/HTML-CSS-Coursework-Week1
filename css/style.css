@@ -18,6 +18,11 @@ body {
     font-family: sans-serif;
     color: rgba(145, 7, 7, 0.863);
   }
+  i {
+    color: white;
+    background-color: teal;
+    text-decoration: underline;
+  }
 
   h1, h2, h3 {
     text-align: center;
